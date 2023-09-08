@@ -1,0 +1,28 @@
+/* style */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the .row */
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the .box */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 1px solid #000;
+    margin: 0 10px;
+}
+
+/* Style the .black box */
+.black {
+    background-color: black;
+    color: white; /* For text color on the black box */
+}
